@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "chapter01",
+    "chapter02"
+]
+
+[workspace.dependencies]
+chapter01 = { path = "chapter01"}
+chapter02 = { path = "chapter02"}
+
+rand = "0.8.5"
