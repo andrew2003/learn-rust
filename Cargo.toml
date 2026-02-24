@@ -3,11 +3,13 @@ resolver = "2"
 
 members = [
     "chapter01",
-    "chapter02"
-]
+    "chapter02",
+    "chapter03"]
 
 [workspace.dependencies]
 chapter01 = { path = "chapter01"}
 chapter02 = { path = "chapter02"}
+chapter03 = { path = "chapter03"}
+
 
 rand = "0.8.5"
